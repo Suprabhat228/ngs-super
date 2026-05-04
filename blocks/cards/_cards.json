@@ -46,12 +46,12 @@
               "value": "fullwidth"
             },
             {
-              "label": "Default",
-              "value": "default"
+              "label": "With Icon",
+              "value": "with-icon"
             },
             {
               "label": "With Icon Packed",
-              "value": "with-icon"
+              "value": "with-icon-packed"
             },
             {
               "label": "With Extra Title",
