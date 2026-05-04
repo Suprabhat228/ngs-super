@@ -175,7 +175,7 @@
       {
         "component": "select",
         "name": "mediaPosition",
-        "label": "Global Media Position",
+        "label": "Media Position",
         "valueType": "string",
         "options": [
           {
@@ -185,34 +185,6 @@
           {
             "name": "Right",
             "value": "media-right"
-          }
-        ]
-      },
-      {
-        "component": "select",
-        "name": "buttonIcon",
-        "label": "Global Button Icon",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Arrow Right",
-            "value": "arrow-right"
-          },
-          {
-            "name": "Arrow Left",
-            "value": "arrow-left"
-          },
-          {
-            "name": "Arrow Up",
-            "value": "arrow-up"
-          },
-          {
-            "name": "Arrow Down",
-            "value": "arrow-down"
-          },
-          {
-            "name": "Arrow View",
-            "value": "arrow-view"
           }
         ]
       }
@@ -245,6 +217,34 @@
         "name": "buttonLink",
         "label": "Button Link",
         "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "buttonIcon",
+        "label": "Button Icon",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Arrow Right",
+            "value": "arrow-right"
+          },
+          {
+            "name": "Arrow Left",
+            "value": "arrow-left"
+          },
+          {
+            "name": "Arrow Up",
+            "value": "arrow-up"
+          },
+          {
+            "name": "Arrow Down",
+            "value": "arrow-down"
+          },
+          {
+            "name": "Arrow View",
+            "value": "arrow-view"
+          }
+        ]
       }
     ]
   },
