@@ -151,23 +151,23 @@
         "valueType": "string",
         "options": [
           {
-            "label": "Fullwidth",
+            "name": "Fullwidth",
             "value": "fullwidth"
           },
           {
-            "label": "With Icon",
+            "name": "Default",
+            "value": "default"
+          },
+          {
+            "name": "With Icon Packed",
             "value": "with-icon"
           },
           {
-            "label": "With Icon Packed",
-            "value": "with-icon-packed"
-          },
-          {
-            "label": "With Title",
+            "name": "With Extra Title",
             "value": "with-title"
           },
           {
-            "label": "3-Up (Text Only)",
+            "name": "3-Up (Text Only)",
             "value": "three-up"
           }
         ]
@@ -175,16 +175,44 @@
       {
         "component": "select",
         "name": "mediaPosition",
-        "label": "Media Position",
+        "label": "Global Media Position",
         "valueType": "string",
         "options": [
           {
-            "label": "Media Left",
+            "name": "Left",
             "value": "media-left"
           },
           {
-            "label": "Media Right",
+            "name": "Right",
             "value": "media-right"
+          }
+        ]
+      },
+      {
+        "component": "select",
+        "name": "buttonIcon",
+        "label": "Global Button Icon",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Arrow Right",
+            "value": "arrow-right"
+          },
+          {
+            "name": "Arrow Left",
+            "value": "arrow-left"
+          },
+          {
+            "name": "Arrow Up",
+            "value": "arrow-up"
+          },
+          {
+            "name": "Arrow Down",
+            "value": "arrow-down"
+          },
+          {
+            "name": "Arrow View",
+            "value": "arrow-view"
           }
         ]
       }
@@ -217,34 +245,6 @@
         "name": "buttonLink",
         "label": "Button Link",
         "valueType": "string"
-      },
-      {
-        "component": "select",
-        "name": "buttonIcon",
-        "label": "Button Icon",
-        "valueType": "string",
-        "options": [
-          {
-            "label": "Arrow Right",
-            "value": "arrow-right"
-          },
-          {
-            "label": "Arrow Left",
-            "value": "arrow-left"
-          },
-          {
-            "label": "Arrow Up",
-            "value": "arrow-up"
-          },
-          {
-            "label": "Arrow Down",
-            "value": "arrow-down"
-          },
-          {
-            "label": "Arrow View",
-            "value": "arrow-view"
-          }
-        ]
       }
     ]
   },
