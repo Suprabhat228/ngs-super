@@ -155,12 +155,12 @@
             "value": "fullwidth"
           },
           {
-            "name": "Default",
-            "value": "default"
+            "name": "With Icon",
+            "value": "with-icon"
           },
           {
             "name": "With Icon Packed",
-            "value": "with-icon"
+            "value": "with-icon-packed"
           },
           {
             "name": "With Extra Title",
