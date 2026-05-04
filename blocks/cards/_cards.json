@@ -40,6 +40,7 @@
           "component": "select",
           "name": "variant",
           "label": "Card Type",
+          "valueType": "string",
           "options": [
             {
               "label": "Fullwidth",
@@ -54,12 +55,28 @@
               "value": "with-icon-packed"
             },
             {
-              "label": "With Extra Title",
+              "label": "With Title",
               "value": "with-title"
             },
             {
               "label": "3-Up (Text Only)",
               "value": "three-up"
+            }
+          ]
+        },
+        {
+          "component": "select",
+          "name": "mediaPosition",
+          "label": "Media Position",
+          "valueType": "string",
+          "options": [
+            {
+              "label": "Media Left",
+              "value": "media-left"
+            },
+            {
+              "label": "Media Right",
+              "value": "media-right"
             }
           ]
         }
@@ -70,32 +87,34 @@
       "fields": [
         {
           "component": "reference",
-          "valueType": "string",
           "name": "image",
-          "label": "Image",
+          "label": "Image/Icon",
+          "valueType": "string",
           "multi": false
         },
         {
           "component": "richtext",
           "name": "text",
-          "value": "",
           "label": "Title & Description",
           "valueType": "string"
         },
         {
           "component": "text",
           "name": "buttonLabel",
-          "label": "Button Label"
+          "label": "Button Label",
+          "valueType": "string"
         },
         {
           "component": "text",
           "name": "buttonLink",
-          "label": "Button Link / Popup ID"
+          "label": "Button Link",
+          "valueType": "string"
         },
         {
           "component": "select",
           "name": "buttonIcon",
           "label": "Button Icon",
+          "valueType": "string",
           "options": [
             {
               "label": "Arrow Right",
@@ -112,6 +131,10 @@
             {
               "label": "Arrow Down",
               "value": "arrow-down"
+            },
+            {
+              "label": "Arrow View",
+              "value": "arrow-view"
             }
           ]
         }
